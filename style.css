@@ -1,0 +1,44 @@
+canvas{
+  position: relative;
+  display: block;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  min-width: 700px;
+}
+
+#canvas-column{
+  flex-grow: 1;
+}
+
+.column-canvas-wrapper{
+  width: 100%;
+  background-color: #003b59;
+  height:700px;
+}
+
+.column-canvas{
+  display: flex;
+  justify-content: center;
+}
+
+.game-property{
+  display: flex;
+  align-items: center;
+
+}
+
+.game-property .text-content{
+  width:200px;
+}
+
+#settingsFlex div:not(:first-child){
+  margin-top: 20px;
+}
+
+#settingsFlex button{
+  margin-top: 20px;
+}
